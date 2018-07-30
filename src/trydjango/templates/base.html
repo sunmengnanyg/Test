@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% block bootstrap3_content %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+
+        Hi
+        {% block content %}
+        {% endblock %}
+
+    </title>
+</head>
+<body>
+
+
+
+    <h1>This is DLSM's home.</h1>
+
+
+        {% block content1 %}
+
+
+        {% endblock %}
+
+</body>
+</html>
+
+
+{% endblock %}
+
