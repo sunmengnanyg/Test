@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content1 %}
+
+{{object_list}}
+{% for instance in object_list%}
+    <p>{{% instance.id %}}</p>
+{% endfor %}
+
+{% endblock %}
