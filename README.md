@@ -1,2 +1,2 @@
 # Test
-test_scripts
+first django project
